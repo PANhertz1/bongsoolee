@@ -52,16 +52,11 @@
   /*--------------------------------------------------------------
   # Sections & Section Header
   --------------------------------------------------------------*/
-  
-  /* section {
-    padding: 55px;
-    overflow: hidden;
-  } */
-  
+
+
   section {
     margin-bottom: auto;
   }
-  
   .section-bg {
     background-color: #ffffff;
   }
@@ -106,7 +101,10 @@
       
   }
   
-  
+  .margin_mh {
+  padding-top: 55px !important;
+    overflow: hidden;
+}
   
   /*--------------------------------------------------------------
   # Scroll top button
@@ -915,6 +913,7 @@
   /*--------------------------------------------------------------
   # Stats Counter Section
   --------------------------------------------------------------*/
+ 
   .stats-counter{
       background-color: #ffffff;
   }
