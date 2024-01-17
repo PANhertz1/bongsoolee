@@ -1242,6 +1242,8 @@
       }
   
     .hero .row h2{
+    text-shadow: 3px 3px #0084ff;
+    color:white;  
     font-size: 70px;
     font-weight: 600;
     line-height: 5.5rem;
@@ -1269,6 +1271,8 @@
     }
   
     .hero .row h2{
+      text-shadow: 3px 3px #0084ff;
+      color:white;
       font-size: 3.5rem;
       font-weight: 500;
       line-height: 5.5rem;
@@ -1307,6 +1311,8 @@
       }
   
     .hero .row h2{
+    text-shadow: 3px 3px #0084ff;
+    color:white;
     font-size: 2.5rem;
     font-weight: 450;
     line-height: 2.5rem;
@@ -1327,6 +1333,8 @@
     }
   
     .hero .row h2{
+      text-shadow: 3px 3px #0084ff;
+      color:white;
       font-size: 2.0rem;
       font-weight: 450;
       line-height: 2.5rem;
