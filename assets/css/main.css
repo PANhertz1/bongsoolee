@@ -105,7 +105,11 @@
   padding-top: 55px !important;
     overflow: hidden;
 }
-  
+  .margin_mh2 {
+    padding-top: 25px !important;
+    overflow: hidden;
+  }
+
   /*--------------------------------------------------------------
   # Scroll top button
   --------------------------------------------------------------*/
@@ -570,12 +574,12 @@
   }
   
   .features .tab-pane ul li {
-    padding-top: 10px;
-    padding-bottom: 2rem;
+    padding-top: 5px;
+    padding-bottom: 10px;
   }
   
   .features .tab-pane ul i {
-    font-size: 20px;
+    font-size: 15px;
     padding-right: 4px;
     color: var(--color-primary);
   }
@@ -705,7 +709,7 @@
   .modal {
     --bs-modal-zindex: 1055;
     --bs-modal-width: 100%;
-    --bs-modal-padding: 1rem;
+    --bs-modal-padding: 3rem;
     --bs-modal-margin: 0.5rem;
     --bs-modal-color: ;
     --bs-modal-bg: #fff;
@@ -790,6 +794,12 @@
 
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
+}
+
+.modal-body .img-pop2 {
+  max-width: 100% ;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 
@@ -1187,6 +1197,12 @@
       position: relative;
     }
   
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 35rem;
+      padding-right: 35rem;
+    }
+
     video {  
       object-fit: cover;
       width: 100%;
@@ -1222,10 +1238,22 @@
         overflow: hidden;
         position: relative;
       }
+
+      .modal-body .img-pop2 {
+        max-width: 100% ;
+        padding-left: 30rem;
+        padding-right: 30rem;
+      }
   }
   
   @media (max-width: 1920px) {
     
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 20rem;
+      padding-right: 20rem;
+    }
+
     .hero {
       padding : 20rem;
       overflow: hidden;
@@ -1253,7 +1281,13 @@
   }
   
   @media (max-width: 1500px){
-    
+
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 15rem;
+      padding-right: 15rem;
+    }
+
     .hero {
       padding : 15rem;
       overflow: hidden;
@@ -1263,6 +1297,12 @@
   
   @media (max-width:1200px){
     
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+
     .hero {
       padding : 10rem;
       overflow: hidden;
@@ -1283,6 +1323,12 @@
   }
   
   @media (max-width:1000px){
+
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
     
     .hero {
       padding : 7rem;
@@ -1294,6 +1340,12 @@
   
   @media (max-width: 784px) {
   
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
   
     .hero {
       padding : 8rem;
@@ -1321,6 +1373,12 @@
   }
   @media (max-width: 640px) {
   
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
     .header .logo img {
       max-height: 20px;
       margin-left: 10px;
@@ -1343,7 +1401,6 @@
   
   }
   @media (max-width: 570px) {
-  
   
     .projects .portfolio-content .portfolio-info h4 {
       font-size: 10px;
@@ -1380,6 +1437,13 @@
   
   }
   
+  @media (max-width: 450px) {
+    .modal-body .img-pop2 {
+      max-width: 100% ;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
   
   /* 
   
