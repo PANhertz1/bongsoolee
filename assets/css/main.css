@@ -48,6 +48,8 @@
   
   p {
     color :#000000;
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-weight: 600;
   }
   /*--------------------------------------------------------------
   # Sections & Section Header
@@ -587,7 +589,15 @@
   .features .tab-pane p:last-child {
     margin-bottom: 0;
   }
-  
+
+  .features .tab-pane .btn{
+    z-index: 100;
+    position: relative;
+    font-size: 1rem;
+    top: calc(-10%);
+    transition: 0.3s;
+    line-height: 0.6;
+  }
  
   /*--------------------------------------------------------------
   # Our Projects Section
@@ -671,8 +681,7 @@
     color: rgba(255, 255, 255, 0.8);
   }
   
-  .projects .portfolio-content .portfolio-info .preview-link,
-  .projects .portfolio-content .portfolio-info .details-link {
+  .projects .portfolio-content .portfolio-info .preview-link{
     position: absolute;
     left: calc(50% - 40px);
     font-size: 70px;
@@ -682,18 +691,29 @@
     line-height: 0.6;
   }
   
+  .projects .portfolio-content .portfolio-info .details-link {
+    position: absolute;
+    text-align: auto;
+    left: calc(50% - 39px);
+    font-size: 20px;
+    top: calc(90% - 30px);
+    color: #fff;
+    transition: 0.3s;
+    line-height: 1.0;
+  }
+
   .projects .portfolio-content .portfolio-info .preview-link:hover,
   .projects .portfolio-content .portfolio-info .details-link:hover {
     color:rgb(255, 255, 159);
   
   }
   
-  .projects .portfolio-content .portfolio-info .details-link {
+  /* .projects .portfolio-content .portfolio-info .details-link {
     left: calc(50% - 55px);
     text-align: auto;
     font-size: 15px;
     line-height: 1.5;
-  }
+  }*/
   
   .projects .portfolio-content:hover .portfolio-info {
     opacity: 1;
@@ -1185,6 +1205,17 @@
       margin: 10px 0;
     }
   }
+
+  .modal-body .btn{
+    z-index: 100;
+    position: relative;
+    font-size: 1rem;
+    left: calc(39%);
+    transition: 0.3s;
+    line-height: 0.6;
+
+    }
+
   /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
@@ -1346,7 +1377,6 @@
       padding-right: 1rem;
     }
 
-  
     .hero {
       padding : 8rem;
       overflow: hidden;
